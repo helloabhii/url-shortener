@@ -3,7 +3,8 @@ package main
 import (
 	"log"
 	"os" // to access env variable
-	"url-shortner/api/routes"
+
+	"example/url-shortner/api/routes"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
@@ -22,3 +23,5 @@ func main() {
 	log.Fatal(app.Listen(os.Getenv("APP_PORT"))) //Create the sever here
 
 }
+
+//run go mod tidy

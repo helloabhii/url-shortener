@@ -4,8 +4,10 @@ import (
 	"os"
 	"strconv"
 	"time"
-	database "url-shortner/api/database"
-	"url-shortner/api/helpers"
+
+	"github.com/helloabhii/url-shortner/api/helpers"
+
+	database "github.com/helloabhii/url-shortner/api/database"
 
 	"github.com/asaskevich/govalidator"
 	"github.com/go-redis/redis/v8"

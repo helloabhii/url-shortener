@@ -2,7 +2,8 @@ package routes
 
 import (
 	"fmt"
-	database "url-shortner/api/database"
+
+	database "github.com/helloabhii/url-shortner/api/database"
 
 	"github.com/go-redis/redis/v8"
 	"github.com/gofiber/fiber/v2"
