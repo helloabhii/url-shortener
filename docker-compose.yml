@@ -1,15 +1,18 @@
 version : "3"
 
 services:
-  api:
+  api: # command for building and running main.go file
     build: api
     ports: 
       - "3000:3000"
     depends_on :
       - db
-  db:
+  db:  # to startup the redis server
     build: db
     ports:
       - "6379:6379"
     volumes:
       - .data:/data
+
+#at last run
+#docker-compose up -d 
