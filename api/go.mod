@@ -1,4 +1,4 @@
-module example/url-shortner
+module github.com/helloabhii/url-shortner
 
 go 1.21.3
 
@@ -7,6 +7,7 @@ require (
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/gofiber/fiber/v2 v2.51.0
 	github.com/google/uuid v1.4.0
+	github.com/joho/godotenv v1.5.1
 )
 
 require (
